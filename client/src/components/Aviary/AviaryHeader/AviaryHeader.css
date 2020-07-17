@@ -1,0 +1,74 @@
+.AviaryHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    position: relative;
+    margin-bottom: 35px;
+
+    border-bottom: 3px solid #D9D9D9;
+    padding-bottom: 7px;
+}
+
+.AviaryHeader__nav i {
+    color: #fff;
+    background: #D9D9D9;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+.AviaryHeader__nav i:hover {
+    background: #567354;
+}
+
+.AviaryHeader__nav-link {
+    font-size: 16px;
+    color: #D9D9D9;
+    padding: 0 20px 18px;
+
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+.AviaryHeader__nav-link:first-child {
+    padding-left: 0;
+}
+
+.AviaryHeader__nav-link:hover {
+    border-bottom: 3px solid #567354;
+}
+
+.active {
+    color: #484848;
+    border-bottom: 3px solid #567354;
+}
+
+.AviaryHeader__nav-link:hover::before {
+    background: #567354;
+}
+
+.AviaryHeader__info {
+    display: flex;
+    align-items: center;
+}
+
+.AviaryHeader__info i {
+    font-size: 28px;
+    color: #567354;
+    margin-right: 24px;
+}
+
+.AviaryHeader__info-avatar {
+    width: 40px;
+    margin-right: 13px;
+}
+
+.AviaryHeader__info span {
+    color: #484848;
+    font-size: 16px;
+}

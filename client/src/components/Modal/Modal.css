@@ -1,0 +1,31 @@
+/* .Modal {
+    width: 174px;
+    padding: 15px 10px 20px;
+    background: #668663;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 39px;
+    left: 187px;
+}
+
+.Modal div {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 52px;
+    cursor: pointer;
+
+    transition: background .3s ease-in-out;
+}
+
+.Modal div:hover {
+    background: #567354;
+}
+
+.Modal i {
+    font-size: 16px;
+    font-weight: 900;
+    margin-right: 8px;
+} */

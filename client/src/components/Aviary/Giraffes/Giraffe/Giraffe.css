@@ -1,0 +1,151 @@
+.Giraffe {
+    max-width: 236px;
+    background: #F3DBC7;
+    border-radius: 28px;
+    padding: 41px 24px;
+    margin-right: 33px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.selected {
+    box-shadow: 0px 4px 15px #869CB0;
+}
+
+.Giraffe img {
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.Giraffe__name {
+    font-size: 22px;
+    color: #435F40;
+    font-weight: 700;
+    margin-bottom: 31px;
+}
+
+.input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #435F40;
+
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Giraffe__info-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 189px;
+    padding: 10px 20px;
+
+    font-size: 25px;
+    color: #435F40;
+    margin-bottom: 13px;
+}
+
+.Giraffe__info-icons i:nth-child(2) {
+    margin-left: -9px;
+}
+
+.Giraffe__info-description {
+    width: 189px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #DCB18B;
+    border-radius: 58px;
+    padding: 10px 23px;
+    margin-bottom: 22px;
+}
+
+.Giraffe__info-description span {
+    font-size: 16px;
+}
+
+.Giraffe__info-details {
+    width: 100%;
+}
+
+.Giraffe__info-details div {
+    font-size: 15px;
+    font-weight: 700;
+    color: #435F40;
+    margin-bottom: 19px;
+    display: flex;
+}
+
+.Giraffe__info-details div:last-child {
+    margin-bottom: 0;
+}
+
+.Giraffe__info-details span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 10px;
+}
+
+.Giraffe__menu {
+    position: absolute;
+    top: 14px;
+    right: 23px;
+    color: #435F40;
+
+    cursor: pointer;
+}
+
+.Modal {
+    width: 174px;
+    padding: 15px 10px 20px;
+    background: #668663;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 39px;
+    left: 187px;
+    z-index: 1;
+}
+
+.Modal div {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 52px;
+    cursor: pointer;
+
+    transition: background .3s ease-in-out;
+}
+
+.Modal div:hover {
+    background: #567354;
+}
+
+.Modal i {
+    font-size: 16px;
+    font-weight: 900;
+    margin-right: 8px;
+}
+
+.editButton {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+
+    outline: none;
+    border: none;
+
+    border-radius: 33px;
+    background: #567354;
+    padding: 10px 24px;
+    margin-top: 28px;
+
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.Sidebar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 20px 0;
+}
+
+.Sidebar__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.Sidebar__info {
+    margin-left: 9px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.Sidebar__info div:first-child {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
